@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08058f9e-193d-4d31-b71a-bc4402fed443" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/TaskServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/UserServicesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Nature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/CreateTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/DeleteTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/EditTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/MarkAsDoneRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/ShareTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/UserSignInRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/UserSignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/ViewAllTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/CreateTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/DeleteTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/EditTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/MarkAsDoneResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/ShareTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/TasApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/UserSignInResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/UserSignUpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/ViewAllTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/exceptions/InvalidNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/TaskRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/TaskServicesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/UserServicesTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2kSELaVdcADO52mWk7qCh0hO5RN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #129.executor": "Run",
+    "HTTP Request.generated-requests | #130.executor": "Run",
+    "HTTP Request.generated-requests | #133.executor": "Run",
+    "HTTP Request.generated-requests | #134.executor": "Run",
+    "HTTP Request.generated-requests | #135.executor": "Run",
+    "HTTP Request.generated-requests | #136.executor": "Run",
+    "HTTP Request.generated-requests | #137.executor": "Run",
+    "HTTP Request.generated-requests | #138.executor": "Run",
+    "HTTP Request.generated-requests | #139.executor": "Run",
+    "HTTP Request.generated-requests | #140.executor": "Run",
+    "HTTP Request.generated-requests | #141.executor": "Run",
+    "HTTP Request.generated-requests | #143.executor": "Run",
+    "HTTP Request.generated-requests | #144.executor": "Run",
+    "HTTP Request.generated-requests | #145.executor": "Run",
+    "HTTP Request.generated-requests | #146.executor": "Run",
+    "HTTP Request.generated-requests | #148.executor": "Run",
+    "HTTP Request.generated-requests | #149.executor": "Run",
+    "HTTP Request.generated-requests | #150.executor": "Run",
+    "HTTP Request.generated-requests | #152.executor": "Run",
+    "HTTP Request.generated-requests | #153.executor": "Run",
+    "HTTP Request.generated-requests | #154.executor": "Run",
+    "HTTP Request.generated-requests | #159.executor": "Run",
+    "HTTP Request.generated-requests | #160.executor": "Run",
+    "HTTP Request.generated-requests | #161.executor": "Run",
+    "HTTP Request.generated-requests | #162.executor": "Run",
+    "HTTP Request.generated-requests | #163.executor": "Run",
+    "HTTP Request.generated-requests | #164.executor": "Run",
+    "HTTP Request.generated-requests | #165.executor": "Run",
+    "HTTP Request.generated-requests | #166.executor": "Run",
+    "HTTP Request.generated-requests | #167.executor": "Run",
+    "HTTP Request.generated-requests | #168.executor": "Run",
+    "HTTP Request.generated-requests | #169.executor": "Run",
+    "HTTP Request.generated-requests | #171.executor": "Run",
+    "HTTP Request.generated-requests | #172.executor": "Run",
+    "HTTP Request.generated-requests | #179.executor": "Run",
+    "JUnit.TaskRepositoryTest.testName.executor": "Run",
+    "JUnit.TaskServicesTest.testAddTask.executor": "Run",
+    "JUnit.TaskServicesTest.testDeleteTask.executor": "Run",
+    "JUnit.TaskServicesTest.testUpdateTaskByName.executor": "Run",
+    "JUnit.UserRepositoryTest.testName.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/owner/IdeaProjects/toDolList/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.toDoList.data.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TaskServicesTest.testUpdateTaskByName">
+    <configuration name="generated-requests | #172" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="172" requestIdentifier="#172" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #179" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="179" requestIdentifier="#179" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskServicesTest.testDeleteTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toDolList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.toDoList.toDoList.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.toDoList.toDoList.services" />
+      <option name="MAIN_CLASS_NAME" value="org.toDoList.toDoList.services.TaskServicesTest" />
+      <option name="METHOD_NAME" value="testDeleteTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServicesTest.testUpdateTaskByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toDolList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.toDoList.toDoList.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.toDoList.toDoList.services" />
+      <option name="MAIN_CLASS_NAME" value="org.toDoList.toDoList.services.TaskServicesTest" />
+      <option name="METHOD_NAME" value="testUpdateTaskByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="toDolList" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.toDoList.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.toDoList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TaskServicesTest.testUpdateTaskByName" />
+        <item itemvalue="JUnit.TaskServicesTest.testDeleteTask" />
+        <item itemvalue="HTTP Request.generated-requests | #179" />
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="HTTP Request.generated-requests | #172" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08058f9e-193d-4d31-b71a-bc4402fed443" name="Changes" comment="" />
+      <created>1723268525484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723268525484</updated>
+      <workItem from="1723268526603" duration="31527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
