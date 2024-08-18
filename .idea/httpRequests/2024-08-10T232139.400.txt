@@ -1,1 +1,0 @@
-Cannot invoke "org.toDoList.toDoList.data.models.Task.setName(String)" because "taskToEdit" is null

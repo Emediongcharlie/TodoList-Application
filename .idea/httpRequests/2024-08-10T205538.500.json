@@ -1,6 +1,0 @@
-{
-  "timestamp": "2024-08-10T19:55:38.589+00:00",
-  "status": 500,
-  "error": "Internal Server Error",
-  "path": "/delete-task-by-name/rerreer"
-}

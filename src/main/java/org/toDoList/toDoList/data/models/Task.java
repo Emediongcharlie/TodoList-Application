@@ -6,6 +6,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Period;
 
 @Document
 @Getter
@@ -18,7 +20,9 @@ public class Task {
     private String description;
     private String email;
     private String password;
+    private LocalDateTime createdAt = LocalDateTime.now();
     private  Nature priority;
     private LocalDate dueDate;
     private Status status;
+    private Period doneDate;
 }

@@ -4,49 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08058f9e-193d-4d31-b71a-bc4402fed443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/TaskServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/UserServicesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Nature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/CreateTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/DeleteTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/EditTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/MarkAsDoneRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/ShareTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/UserSignInRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/UserSignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/ViewAllTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/CreateTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/DeleteTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/EditTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/MarkAsDoneResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/ShareTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/TasApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/UserSignInResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/UserSignUpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/ViewAllTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/exceptions/InvalidNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/TaskRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/TaskServicesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/UserServicesTest.java" afterDir="false" />
+    <list default="true" id="08058f9e-193d-4d31-b71a-bc4402fed443" name="Changes" comment="todolist update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/config/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/exceptions/InvalidEmailException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T193534.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T193650.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T193947.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194128.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194137.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194142.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194316.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194554.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194621.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194631.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194637.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194856.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T194901.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T205538.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T210022.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T210136.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T210904.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T211224.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T211235.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T211242.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T211308.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T221509.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T221557.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T221706.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T222443.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T222522.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T222532.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T222816.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T222839.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T224101.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T231616.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T231651.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T231759.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T231830.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T232106.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T232139.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T232302.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T232324.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T232527.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T232610.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T232735.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T233204.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T233231.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T234528.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T234551.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-10T235924.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-11T000611.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-11T000658.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-11T000713.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-08-11T155357.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/TaskServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/TaskServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/UserServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/controllers/UserServicesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/models/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/data/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/CreateTaskRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/CreateTaskRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/DeleteTaskRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/DeleteTaskRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/MarkAsDoneRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/requests/MarkAsDoneRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/CreateTaskResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/CreateTaskResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/MarkAsDoneResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/MarkAsDoneResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/TasApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/dtos/response/TasApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/TaskServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/toDoList/toDoList/services/UserServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/TaskServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/toDoList/toDoList/services/TaskServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +94,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2kSELaVdcADO52mWk7qCh0hO5RN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -110,10 +140,52 @@
     "HTTP Request.generated-requests | #171.executor": "Run",
     "HTTP Request.generated-requests | #172.executor": "Run",
     "HTTP Request.generated-requests | #179.executor": "Run",
+    "HTTP Request.generated-requests | #197.executor": "Run",
+    "HTTP Request.generated-requests | #198.executor": "Run",
+    "HTTP Request.generated-requests | #199.executor": "Run",
+    "HTTP Request.generated-requests | #201.executor": "Run",
+    "HTTP Request.generated-requests | #203.executor": "Run",
+    "HTTP Request.generated-requests | #204.executor": "Run",
+    "HTTP Request.generated-requests | #205.executor": "Run",
+    "HTTP Request.generated-requests | #206.executor": "Run",
+    "HTTP Request.generated-requests | #207.executor": "Run",
+    "HTTP Request.generated-requests | #208.executor": "Run",
+    "HTTP Request.generated-requests | #209.executor": "Run",
+    "HTTP Request.generated-requests | #216.executor": "Run",
+    "HTTP Request.generated-requests | #219.executor": "Run",
+    "HTTP Request.generated-requests | #220.executor": "Run",
+    "HTTP Request.generated-requests | #221.executor": "Run",
+    "HTTP Request.generated-requests | #222.executor": "Run",
+    "HTTP Request.generated-requests | #223.executor": "Run",
+    "HTTP Request.generated-requests | #224.executor": "Run",
+    "HTTP Request.generated-requests | #225.executor": "Run",
+    "HTTP Request.generated-requests | #226.executor": "Run",
+    "HTTP Request.generated-requests | #227.executor": "Run",
+    "HTTP Request.generated-requests | #228.executor": "Run",
+    "HTTP Request.generated-requests | #229.executor": "Run",
+    "HTTP Request.generated-requests | #231.executor": "Run",
+    "HTTP Request.generated-requests | #232.executor": "Run",
+    "HTTP Request.generated-requests | #233.executor": "Run",
+    "HTTP Request.generated-requests | #234.executor": "Run",
+    "HTTP Request.generated-requests | #264.executor": "Run",
+    "HTTP Request.generated-requests | #265.executor": "Run",
+    "HTTP Request.generated-requests | #266.executor": "Run",
+    "HTTP Request.generated-requests | #267.executor": "Run",
+    "HTTP Request.generated-requests | #272.executor": "Run",
+    "HTTP Request.generated-requests | #273.executor": "Run",
+    "HTTP Request.generated-requests | #274.executor": "Run",
+    "HTTP Request.generated-requests | #275.executor": "Run",
+    "HTTP Request.generated-requests | #277.executor": "Run",
+    "HTTP Request.generated-requests | #278.executor": "Run",
+    "HTTP Request.generated-requests | #279.executor": "Run",
     "JUnit.TaskRepositoryTest.testName.executor": "Run",
+    "JUnit.TaskServicesTest.executor": "Run",
     "JUnit.TaskServicesTest.testAddTask.executor": "Run",
     "JUnit.TaskServicesTest.testDeleteTask.executor": "Run",
+    "JUnit.TaskServicesTest.testFindTaskById.executor": "Run",
+    "JUnit.TaskServicesTest.testFindTaskByPassword.executor": "Run",
     "JUnit.TaskServicesTest.testUpdateTaskByName.executor": "Run",
+    "JUnit.TaskServicesTest.testViewAll.executor": "Run",
     "JUnit.UserRepositoryTest.testName.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -124,7 +196,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Main.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -141,44 +213,18 @@
       <recent name="org.example.toDoList.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TaskServicesTest.testUpdateTaskByName">
-    <configuration name="generated-requests | #172" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="172" requestIdentifier="#172" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="generated-requests | #275" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="275" requestIdentifier="#275" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #179" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="179" requestIdentifier="#179" runType="Run single request">
+    <configuration name="generated-requests | #277" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="277" requestIdentifier="#277" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="TaskServicesTest.testDeleteTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="toDolList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.toDoList.toDoList.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.toDoList.toDoList.services" />
-      <option name="MAIN_CLASS_NAME" value="org.toDoList.toDoList.services.TaskServicesTest" />
-      <option name="METHOD_NAME" value="testDeleteTask" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #278" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="278" requestIdentifier="#278" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="TaskServicesTest.testUpdateTaskByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="toDolList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.toDoList.toDoList.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.toDoList.toDoList.services" />
-      <option name="MAIN_CLASS_NAME" value="org.toDoList.toDoList.services.TaskServicesTest" />
-      <option name="METHOD_NAME" value="testUpdateTaskByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #279" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="279" requestIdentifier="#279" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="toDolList" />
@@ -195,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskServicesTest.testUpdateTaskByName" />
-        <item itemvalue="JUnit.TaskServicesTest.testDeleteTask" />
-        <item itemvalue="HTTP Request.generated-requests | #179" />
         <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="HTTP Request.generated-requests | #172" />
+        <item itemvalue="HTTP Request.generated-requests | #279" />
+        <item itemvalue="HTTP Request.generated-requests | #278" />
+        <item itemvalue="HTTP Request.generated-requests | #277" />
+        <item itemvalue="HTTP Request.generated-requests | #275" />
       </list>
     </recent_temporary>
   </component>
@@ -219,12 +265,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723268525484</updated>
-      <workItem from="1723268526603" duration="31527000" />
+      <workItem from="1723268526603" duration="42800000" />
+      <workItem from="1723538041201" duration="54249000" />
     </task>
+    <task id="LOCAL-00001" summary="todolist update">
+      <option name="closed" value="true" />
+      <created>1723430967325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723430967325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="todolist update" />
+    <option name="LAST_COMMIT_MESSAGE" value="todolist update" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

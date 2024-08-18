@@ -1,1 +1,0 @@
-Query { "$java" : Query: { "email" : "ftry"}, Fields: {}, Sort: {} } returned non unique result

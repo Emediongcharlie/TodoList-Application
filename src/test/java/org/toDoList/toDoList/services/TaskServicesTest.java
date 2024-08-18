@@ -12,6 +12,7 @@ import org.toDoList.toDoList.dtos.response.CreateTaskResponse;
 import org.toDoList.toDoList.dtos.response.EditTaskResponse;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 public class TaskServicesTest {
@@ -28,7 +29,6 @@ public class TaskServicesTest {
 
     @Test
     public void testAddTask() {
-        Task task = new Task();
         CreateTaskRequest request = new CreateTaskRequest();
         request.setName("Test Task");
         request.setPassword("22222");
@@ -40,7 +40,6 @@ public class TaskServicesTest {
 
     @Test
     public void testDeleteTask() {
-        Task task = new Task();
         CreateTaskRequest request = new CreateTaskRequest();
         request.setName("Test Task");
         request.setPassword("22222");
@@ -53,7 +52,6 @@ public class TaskServicesTest {
 
     @Test
     public void testUpdateTaskByName() {
-        Task task = new Task();
         CreateTaskRequest request = new CreateTaskRequest();
         EditTaskRequest editTaskRequest = new EditTaskRequest();
         request.setName("Test Task");
@@ -67,5 +65,32 @@ public class TaskServicesTest {
         EditTaskResponse editResponse = taskServices.editTaskName(editTaskRequest, response.getName());
         assertThat(editResponse).isNotNull();
         assertThat(response.getPassword().contains("33333"));
+    }
+
+    @Test
+    public void testFindTaskByPassword(){
+        CreateTaskRequest request = new CreateTaskRequest();
+        request.setName("Test Task");
+        request.setPassword("22222");
+        request.setEmail("ema@test.com");
+        CreateTaskResponse response = taskServices.createTask(request);
+        assertThat(response).isNotNull();
+        assertThat(response.getName().contains("Test Task"));
+    }
+
+    @Test
+    public void testViewAll(){
+        CreateTaskRequest request = new CreateTaskRequest();
+        request.setName("T Task");
+        request.setPassword("22222");
+        request.setEmail("java@test.com");
+        CreateTaskResponse response = taskServices.createTask(request);
+        assertThat(response).isNotNull();
+        CreateTaskRequest request2 = new CreateTaskRequest();
+        request2.setName("Test Task");
+        request2.setPassword("22222");
+        request2.setEmail("ema@test.com");
+        taskServices.createTask(request2);
+        assertEquals(taskRepository.count(), 2);
     }
 }

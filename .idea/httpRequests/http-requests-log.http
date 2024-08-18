@@ -1,197 +1,4 @@
-GET http://localhost:8080/vieww-all-task
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-11T155357.200.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/bless
-Content-Type: application/json
-Content-Length: 55
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "yes",
-  "email": "yes",
-  "password": ""
-}
-
-<> 2024-08-11T000713.400.txt
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/bless
-Content-Type: application/json
-Content-Length: 58
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "yes",
-  "email": "yes",
-  "password": "yes"
-}
-
-<> 2024-08-11T000658.200.json
-
-###
-
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 64
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "bless",
-  "email": "bless",
-  "password": "bless"
-}
-
-<> 2024-08-11T000611.201.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/4
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "2",
-  "email": "4",
-  "password": "7"
-}
-
-<> 2024-08-10T235924.200.json
-
-###
-
-GET http://localhost:8080/find-task-by-name/66b7ed886153ab38e592986c
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T234551.404.json
-
-###
-
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "4",
-  "email": "6",
-  "password": "3"
-}
-
-<> 2024-08-10T234528.201.json
-
-###
-
-GET http://localhost:8080/find-task-by-name/a
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T233231.404.json
-
-###
-
-GET http://localhost:8080/find-task-by-name/a
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T233204.404.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/a
-Content-Type: application/json
-Content-Length: 50
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "t",
-  "email": "",
-  "password": ""
-}
-
-<> 2024-08-10T232735.200.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/a
-Content-Type: application/json
-Content-Length: 51
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "",
-  "email": "h",
-  "password": "m"
-}
-
-<> 2024-08-10T232610.200.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/a
-Content-Type: application/json
-Content-Length: 51
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "u",
-  "email": "",
-  "password": "m"
-}
-
-<> 2024-08-10T232527.200.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/a
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "s",
-  "email": "f",
-  "password": "t"
-}
-
-<> 2024-08-10T232324.200.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/a
+PUT http://localhost:8080/edit-task-by-name/emediongcharlie
 Content-Type: application/json
 Content-Length: 49
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
@@ -204,248 +11,202 @@ Accept: */*
   "password": ""
 }
 
-<> 2024-08-10T232302.200.json
+<> 2024-08-16T101516.400.txt
 
 ###
 
-PUT http://localhost:8080/edit-task-by-name/a
+PUT http://localhost:8080/edit-task-by-name/emediongcharlie
 Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "v",
-  "email": "v",
-  "password": "s"
-}
-
-<> 2024-08-10T232139.400.txt
-
-###
-
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "a",
-  "email": "a",
-  "password": "a"
-}
-
-<> 2024-08-10T232106.201.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/promise
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "b",
-  "email": "b",
-  "password": "c"
-}
-
-<> 2024-08-10T231830.404.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/p
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "b",
-  "email": "b",
-  "password": "c"
-}
-
-<> 2024-08-10T231759.404.json
-
-###
-
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "p",
-  "email": "p",
-  "password": "p"
-}
-
-<> 2024-08-10T231651.201.json
-
-###
-
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "p",
-  "email": "p",
-  "password": "p"
-}
-
-<> 2024-08-10T231616.404.json
-
-###
-
-GET http://localhost:8080/find-task-by-name/promise
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T224101.404.json
-
-###
-
-GET http://localhost:8080/find-task-by-name/promise
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T222839.404.json
-
-###
-
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 70
+Content-Length: 65
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
   "name": "promise",
-  "email": "promise",
-  "password": "promise"
+  "email": "kkkk",
+  "password": "trtrt"
 }
 
-<> 2024-08-10T222816.201.json
-
-###
-
-GET http://localhost:8080/find-task-by-name/emedbless
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T222532.404.json
-
-###
-
-GET http://localhost:8080/find-task-by-name/emedbless
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T222522.404.json
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/emedbless
-Content-Type: application/json
-Content-Length: 67
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "joh",
-  "email": "blessing",
-  "password": "blessed"
-}
-
-<> 2024-08-10T222443.400.txt
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/emedbless
-Content-Type: application/json
-Content-Length: 67
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "joh",
-  "email": "blessing",
-  "password": "blessed"
-}
-
-<> 2024-08-10T221706.400.txt
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/emedbless
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "faithful",
-  "email": "blessing",
-  "password": "rest"
-}
-
-<> 2024-08-10T221557.400.txt
-
-###
-
-PUT http://localhost:8080/edit-task-by-name/emedbless
-Content-Type: application/json
-Content-Length: 57
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "faithful",
-  "email": "",
-  "password": ""
-}
-
-<> 2024-08-10T221509.400.txt
-
-###
-
-GET http://localhost:8080/find-task-by-name/emedbless
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-10T211308.404.json
+<> 2024-08-16T101143.200.json
 
 ###
 
 POST http://localhost:8080/create-task
+Content-Type: application/json
+Content-Length: 95
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "emediongcharlie",
+  "email": "opopop",
+  "password": "opopop",
+  "createdAt": ""
+}
+
+<> 2024-08-16T100917.201.json
+
+###
+
+POST http://localhost:8080/create-task
+Content-Type: application/json
+Content-Length: 121
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "example",
+  "email": "eefer",
+  "password": "rdeses",
+  "createdAt": "",
+  "dueDate": "",
+  "doneDate": {}
+}
+
+<> 2024-08-16T100538.400.json
+
+###
+
+POST http://localhost:8080/create-task
+Content-Type: application/json
+Content-Length: 120
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "example",
+  "email": "eee@eee",
+  "password": "pop",
+  "createdAt": "",
+  "dueDate": "",
+  "doneDate": {}
+}
+
+<> 2024-08-16T100309.400.json
+
+###
+
+POST http://localhost:8080/create-task
+Content-Type: application/json
+Content-Length: 120
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "example",
+  "email": "eee@eee",
+  "password": "pop",
+  "createdAt": "",
+  "dueDate": "",
+  "doneDate": {}
+}
+
+<> 2024-08-16T100244.400.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hhghghh@d",
+  "password": "kjjk"
+}
+
+<> 2024-08-15T193016.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hhghh@d",
+  "password": "kjjk"
+}
+
+<> 2024-08-15T193003.400.txt
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hhghh@d",
+  "password": "kjjk"
+}
+
+<> 2024-08-15T184820.400.txt
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hhghghh@d",
+  "password": "kjjk"
+}
+
+<> 2024-08-15T184814.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hhghghh@d",
+  "password": "kjjk"
+}
+
+<> 2024-08-15T184811.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hhghghh@d",
+  "password": "kjjk"
+}
+
+<> 2024-08-15T184751.200.json
+
+###
+
+POST http://localhost:8080/signup
 Content-Type: application/json
 Content-Length: 71
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
@@ -453,313 +214,484 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
-  "name": "emedbless",
-  "email": "blesng",
-  "password": "blessed"
+  "name": "erererere",
+  "email": "hhghghh@d",
+  "password": "kjjk"
 }
 
-<> 2024-08-10T211242.201.json
+<> 2024-08-15T184700.201.json
 
 ###
 
 POST http://localhost:8080/create-task
 Content-Type: application/json
-Content-Length: 73
+Content-Length: 109
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
-  "name": "emedbless",
-  "email": "blessing",
-  "password": "blessed"
+  "name": "pl",
+  "email": "mn",
+  "password": "yt",
+  "createdAt": "",
+  "dueDate": "",
+  "doneDate": {}
 }
 
-<> 2024-08-10T211235.400.txt
+<> 2024-08-15T104211.400.json
 
 ###
 
-GET http://localhost:8080/find-task-by-name/emedbless
+POST http://localhost:8080/create-task
+Content-Type: application/json
+Content-Length: 112
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "ww",
+  "email": "op",
+  "password": "lk",
+  "createdAt": "",
+  "dueDate": "",
+  "doneDate": {"1"}
+}
+
+<> 2024-08-15T104119.400.json
+
+###
+
+POST http://localhost:8080/create-task
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "y",
+  "email": "yi",
+  "password": "ert",
+  "createdAt": "",
+  "dueDate": "",
+  "doneDate": {}
+}
+
+<> 2024-08-15T103957.400.json
+
+###
+
+POST http://localhost:8080/create-task
+Content-Type: application/json
+Content-Length: 88
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "d",
+  "email": "d",
+  "password": "k",
+  "createdAt": "",
+  "dueDate": ""
+}
+
+<> 2024-08-15T102059.201.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "dsds",
+  "password": "sdds"
+}
+
+<> 2024-08-14T154916.400.txt
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "emedu@yyy",
+  "password": "ddsdd"
+}
+
+<> 2024-08-14T154909.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "dsds",
+  "password": "sdds"
+}
+
+<> 2024-08-14T154737.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "emedu@yyy",
+  "password": "ddsdd"
+}
+
+<> 2024-08-14T154730.400.txt
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "emedu@yyy",
+  "password": "ddsdd"
+}
+
+<> 2024-08-14T154624.400.txt
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "dsds",
+  "password": "sdds"
+}
+
+<> 2024-08-14T154506.404.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "emedu@yyy",
+  "password": "ddsdd"
+}
+
+<> 2024-08-14T154352.404.json
+
+###
+
+POST http://localhost:8080/signup
+Content-Type: application/json
+Content-Length: 71
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "emediong",
+  "email": "emedu@yyy",
+  "password": "ddsdd"
+}
+
+<> 2024-08-14T154116.201.json
+
+###
+
+GET http://localhost:8080/view-all-task
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-08-10T211224.404.json
+<> 2024-08-14T102918.400.txt
 
 ###
 
-GET http://localhost:8080/find-task-by-name/emedbless
+DELETE http://localhost:8080/delete-all-task
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-08-10T210904.404.json
+<> 2024-08-14T102859.400.txt
 
 ###
 
-PUT http://localhost:8080/edit-task-by-name/emedbless
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 40
+DELETE http://localhost:8080/delete-all-task
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-%7B%0A%22name%22%3A+%22blessed%22%0A%7D=
-
-<> 2024-08-10T210136.500.json
+<> 2024-08-14T102818.500.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 73
+DELETE http://localhost:8080/delete-all-task
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-
-{
-  "name": "emedbless",
-  "email": "blessing",
-  "password": "blessed"
-}
-
-<> 2024-08-10T210022.201.json
+content-length: 0
 
 ###
 
-PUT http://localhost:8080/delete-task-by-name/rerreer
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 41
+GET http://localhost:8080/task-done/emedc
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-%7B%0A%22name%22%3A+%22hghghjjg%22%0A%7D=
-
-<> 2024-08-10T205538.500.json
+<> 2024-08-14T102548.200.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 67
+GET http://localhost:8080/view-all-task
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "rerreer",
-  "email": "eeerre",
-  "password": "ererr"
-}
-
-<> 2024-08-10T194901.400.txt
+<> 2024-08-14T102521.200.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 67
+GET http://localhost:8080/delete/emedc
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "rerreer",
-  "email": "eeerre",
-  "password": "ererr"
-}
-
-<> 2024-08-10T194856.201.json
+<> 2024-08-14T102510.200.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 63
+GET http://localhost:8080/view-all-task
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "tytyti",
-  "email": "ftll",
-  "password": "deru"
-}
-
-<> 2024-08-10T194637.400.txt
+<> 2024-08-14T102445.200.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 63
+GET http://localhost:8080/delete/emediong
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "tytyti",
-  "email": "ftll",
-  "password": "deru"
-}
+<> 2024-08-14T102418.400.txt
 
-<> 2024-08-10T194631.400.txt
+###
+
+GET http://localhost:8080/delete/emediong
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-14T102333.404.json
+
+###
+
+GET http://localhost:8080/delete/emediong
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-14T102319.404.json
+
+###
+
+GET http://localhost:8080/find-task-by-name/66bba4e147c57a213ed9c65d
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-14T102240.200.json
+
+###
+
+GET http://localhost:8080/view-all-task
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-14T102114.200.json
 
 ###
 
 POST http://localhost:8080/create-task
 Content-Type: application/json
-Content-Length: 63
+Content-Length: 96
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
-  "name": "tytyti",
-  "email": "ftll",
-  "password": "deru"
+  "name": "emedc",
+  "email": "yes@3",
+  "password": "3",
+  "createdAt": "",
+  "dueDate": ""
 }
 
-<> 2024-08-10T194621.201.json
+<> 2024-08-14T102046.201.json
+
+###
+
+GET http://localhost:8080/task-done/emediong
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-14T101943.404.json
+
+###
+
+GET http://localhost:8080/task-done/emediong
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-14T101811.404.json
 
 ###
 
 POST http://localhost:8080/create-task
 Content-Type: application/json
-Content-Length: 67
+Content-Length: 65
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
-  "name": "tyryrtyty",
-  "email": "ftry",
-  "password": "derer"
+  "name": "emediong",
+  "email": "ed@yh",
+  "password": "333"
 }
 
-<> 2024-08-10T194554.400.txt
+<> 2024-08-14T101728.201.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 67
+GET http://localhost:8080/get-book-by-isbn/1111
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "tyryrtyty",
-  "email": "ftry",
-  "password": "derer"
-}
-
-<> 2024-08-10T194316.400.txt
+<> 2024-08-14T101659.404.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 67
+GET http://localhost:8080/delete/emediong
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "tyryrtyty",
-  "email": "ftry",
-  "password": "derer"
-}
-
-<> 2024-08-10T194142.201.json
+<> 2024-08-13T193515.404.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 67
+GET http://localhost:8080/delete/emediong
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "tyryrtyty",
-  "email": "ftry",
-  "password": "derer"
-}
-
-<> 2024-08-10T194137.201.json
+<> 2024-08-13T193320.404.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 67
+GET http://localhost:8080/delete/emediong
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "tyryrtyty",
-  "email": "ftry",
-  "password": "derer"
-}
-
-<> 2024-08-10T194128.201.json
+<> 2024-08-13T193139.404.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 62
+GET http://localhost:8080/deleteemediong
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "hghghg",
-  "email": "jgj",
-  "password": "ftdd"
-}
-
-<> 2024-08-10T193947.400.txt
+<> 2024-08-13T193128.500.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 61
+GET http://localhost:8080/find-task-by-name/66b8d536f9641f4c8a20aa1e
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "hfhfhg",
-  "email": "gyhhy",
-  "password": "g"
-}
-
-<> 2024-08-10T193650.400.txt
+<> 2024-08-13T193027.404.json
 
 ###
 
-POST http://localhost:8080/create-task
-Content-Type: application/json
-Content-Length: 68
+GET http://localhost:8080/find-task-by-name/66b8d536f9641f4c8a20aa1e/
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
+content-length: 0
 
-{
-  "name": "fftyrtrtr",
-  "email": "yfyte",
-  "password": "tdttf"
-}
+<> 2024-08-13T192958.404.json
 
-<> 2024-08-10T193534.400.txt
+###
+
+GET http://localhost:8080/find-task-by-name/66b8d536f9641f4c8a20aa1e
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T192918.404.json
 
 ###
 

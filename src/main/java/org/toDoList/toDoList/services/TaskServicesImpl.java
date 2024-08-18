@@ -3,6 +3,7 @@ package org.toDoList.toDoList.services;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.toDoList.toDoList.data.models.Status;
 import org.toDoList.toDoList.data.models.Task;
 import org.toDoList.toDoList.data.repositories.TaskRepository;
 import org.toDoList.toDoList.dtos.requests.CreateTaskRequest;
@@ -10,8 +11,11 @@ import org.toDoList.toDoList.dtos.requests.EditTaskRequest;
 import org.toDoList.toDoList.dtos.response.CreateTaskResponse;
 import org.toDoList.toDoList.dtos.response.DeleteTaskResponse;
 import org.toDoList.toDoList.dtos.response.EditTaskResponse;
+import org.toDoList.toDoList.dtos.response.MarkAsDoneResponse;
 import org.toDoList.toDoList.exceptions.InvalidNameException;
 
+import java.io.ObjectInputFilter;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -31,6 +35,7 @@ public class TaskServicesImpl implements TaskServices{
         task.setEmail(request.getEmail());
         task.setPassword(request.getPassword());
         taskRepository.save(task);
+        response.setId(task.getId());
         response.setName(task.getName());
         response.setEmail(task.getEmail());
         response.setId(task.getId());
@@ -41,11 +46,43 @@ public class TaskServicesImpl implements TaskServices{
 
     @Override
     public DeleteTaskResponse deleteAllTask() {
-        taskRepository.deleteAll();
-        DeleteTaskResponse response = new DeleteTaskResponse();
-        response.setMessage("successfully deleted");
-        return response;
+//        if (taskRepository.count() == 0) {
+//            throw new InvalidNameException("Task is empty");
+//        }
+//        else {
+            taskRepository.deleteAll();
+            DeleteTaskResponse response = new DeleteTaskResponse();
+            response.setMessage("successfully deleted");
+            return response;
+//        }
     }
+
+    public DeleteTaskResponse deleteTaskByName(String name) {
+        Optional<Task> task = taskRepository.findByName(name);
+        if (task.isPresent()) {
+            taskRepository.delete(task.get());
+            DeleteTaskResponse response = new DeleteTaskResponse();
+            response.setMessage("successfully deleted");
+            return response;
+        }
+        return null;
+    }
+
+    @Override
+    public MarkAsDoneResponse taskDone(String name) {
+        Optional<Task> task = taskRepository.findByName(name);
+        if (task.isPresent()) {
+            MarkAsDoneResponse response = new MarkAsDoneResponse();
+            response.setMessage("Not yet done");
+            return response;
+        }
+        else{
+            MarkAsDoneResponse response = new MarkAsDoneResponse();
+            response.setMessage("Done");
+            return response;
+        }
+    }
+
 
     @Override
     public EditTaskResponse editTaskName(EditTaskRequest request, String name) {
@@ -88,7 +125,12 @@ public class TaskServicesImpl implements TaskServices{
 
     @Override
     public List<Task> viewAllTask() {
-        return taskRepository.findAll();
+        if(taskRepository.count() == 0){
+            throw new InvalidNameException("Task is empty");
+        }
+        else {
+            return taskRepository.findAll();
+        }
     }
 
     private void validateEmail(String email) {
@@ -98,6 +140,15 @@ public class TaskServicesImpl implements TaskServices{
         }
     }
 
+//    private void validateStatusByMail(Status status) {
+//        if (taskRepository.findStatusByStatus(Status.COMPLETED));
+//
+
+
+    }
+
+
+
 //    private void validateName(String name) {
 //        Task nameCheck = taskRepository.findByName(name);
 //        if (nameCheck != null) {
@@ -105,5 +156,3 @@ public class TaskServicesImpl implements TaskServices{
 //        }
 //    }
 
-
-}

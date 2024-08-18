@@ -10,5 +10,5 @@ import org.toDoList.toDoList.dtos.response.UserSignUpResponse;
 public interface UserServices {
 
     UserSignUpResponse signUpUser(UserSignUpRequest userSignUpRequest);
-    UserSignInResponse signInUser(UserSignInRequest userSignInRequest);
+    UserSignInResponse loginUser(UserSignInRequest userSignInRequest);
 }
